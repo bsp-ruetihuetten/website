@@ -1,0 +1,11 @@
+{{- $datum := time . -}}
+{{- $wochentage := dict
+  "Monday" "Montag"
+  "Tuesday" "Dienstag"
+  "Wednesday" "Mittwoch"
+  "Thursday" "Donnerstag"
+  "Friday" "Freitag"
+  "Saturday" "Samstag"
+  "Sunday" "Sonntag"
+-}}
+{{- printf "%s, %s" (index $wochentage ($datum.Format "Monday")) ($datum.Format "02.01.2006") -}}

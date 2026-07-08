@@ -1,0 +1,16 @@
+{{ $ordner := .Get "ordner" | default (.Get "folder") }}
+{{ $titel := .Get "titel" | default (.Get "title") }}
+{{ if $titel }}<h2>{{ $titel }}</h2>{{ end }}
+{{ if $ordner }}
+  {{ $bilder := resources.Match (printf "images/%s/*" $ordner) }}
+  {{ if $bilder }}
+    <div class="gallery-grid">
+      {{ range $bilder }}
+        {{ if reflect.IsImageResourceProcessable . }}
+          {{ $thumb := .Fill "640x420 Center" }}
+          <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" alt="">
+        {{ end }}
+      {{ end }}
+    </div>
+  {{ end }}
+{{ end }}

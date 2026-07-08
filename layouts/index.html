@@ -1,0 +1,86 @@
+{{ define "main" }}
+  <section class="hero">
+    {{ with .Params.hero_bild }}
+      {{ with resources.Get (printf "images/%s" .) }}
+        {{ $img := .Fit "2200x1200" }}
+        <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="">
+      {{ end }}
+    {{ end }}
+    <div class="hero-content">
+      <p class="eyebrow">Bauspielplatz Rütihütten</p>
+      <h1>Ein Platz zum Bauen, Spielen und Grosswerden.</h1>
+      <p>Am Waldrand im Rütihof entsteht aus Holz, Werkzeug, Feuer und Fantasie ein Stück Kindheit im Quartier.</p>
+    </div>
+  </section>
+
+  <div class="container dashboard">
+    {{ partial "status-banner.html" . }}
+    {{ partial "upcoming-events.html" . }}
+    {{ partial "recent-stories.html" . }}
+
+    <section class="section split">
+      <div>
+        <p class="eyebrow">Kurz gesagt</p>
+        <h2>Offen, betreut und draussen</h2>
+      </div>
+      <div class="prose">
+        {{ .Content }}
+        <p><a class="button" href="/bauspielplatz/">Mehr über den Platz</a></p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Auf dem Platz</p>
+        <h2>Was Kinder hier erleben</h2>
+      </div>
+      <div class="info-grid">
+        <article class="info-card">
+          <h3>Bauen und werken</h3>
+          <p>Holz, Nägel, Werkzeug, Speckstein und eigene Ideen: Kinder können ausprobieren, verbessern und eigene Traumhäuser weiterbauen.</p>
+        </article>
+        <article class="info-card">
+          <h3>Draussen sein</h3>
+          <p>Der Platz liegt am Waldrand. Es gibt Raum für Bewegung, Feuer, Erde, Wasser, Hütten und unerwartete Pläne.</p>
+        </article>
+        <article class="info-card">
+          <h3>Gemeinschaft</h3>
+          <p>Regelmässige Öffnungstage und besondere Anlässe wie Pfuus, Böögg oder Castagnata bringen das Quartier zusammen.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="eyebrow">Kalender</p>
+        <h2>Die nächsten Tage auf dem Platz</h2>
+      </div>
+      <div class="date-list">
+        {{ $heute := now.Format "2006-01-02" }}
+        {{ range first 5 (where (where hugo.Data.kalender.eintraege "datum" "ge" $heute) "offen" true) }}
+          <article>
+            <time datetime="{{ .datum }}">{{ partial "date-display.html" .datum }}</time>
+            <strong>{{ .titel }}</strong>
+            <span>{{ .beginn }}-{{ .ende }} Uhr</span>
+          </article>
+        {{ end }}
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="eyebrow">Besuch</p>
+        <h2>Gut zu wissen</h2>
+      </div>
+      <div class="prose">
+        <p>Der Bauspielplatz ist kostenlos und ohne Voranmeldung offen. Kindergartenkinder kommen bitte in Begleitung eines Erwachsenen; Schulkinder können während der Öffnungszeiten selbständiger dabei sein.</p>
+        <p>Robuste Kleidung und gute Schuhe passen am besten zum Platz. Bei Regen, Kälte oder sehr warmem Wetter lohnt sich ein kurzer Blick auf den aktuellen Hinweis oben.</p>
+        <p>Fragen zu Ablauf, Begleitung, Mitgliedschaft oder Unterstützung beantworten wir gerne per E-Mail.</p>
+        <p>
+          <a class="button" href="/kalender/">Kalender ansehen</a>
+          <a class="text-link" href="/kontakt-unterstuetzen/">Kontakt aufnehmen</a>
+        </p>
+      </div>
+    </section>
+  </div>
+{{ end }}

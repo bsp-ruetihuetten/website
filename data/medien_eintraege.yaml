@@ -1,0 +1,534 @@
+medien_eintraege:
+- id: hoengger-die-ruetihuetten-sind-gerettet
+  typ: article
+  titel: Die Rütihütten sind gerettet
+  datum: '2024-12-31'
+  quelle: Höngger
+  externe_url: https://hoengger.ch/die-ruetihuetten-sind-gerettet-2/
+  lokale_kopie: ''
+  status: public
+  archiviert: true
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-die-ruetihuetten-sind-gerettet.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/hoengger-die-ruetihuetten-sind-gerettet.html
+  archiv_parse_status: parsed
+  archiv_bilder:
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-die-ruetihuetten-sind-gerettet/01-Ruetihuetten_on.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-die-ruetihuetten-sind-gerettet/02-Ruetihuetten_on-1600x0-c-default.jpg
+  archiv_bilder_anzahl: 2
+  archiv_bilder_status: archived
+- id: hoengger-2023-feriendestination-ruetihuetten
+  typ: article
+  titel: Feriendestination Rütihütten
+  datum: '2023-09-07'
+  quelle: Höngger
+  externe_url: https://hoengger.ch/feriendestination-ruetihuetten/
+  lokale_kopie: ''
+  status: public
+  archiviert: true
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-2023-feriendestination-ruetihuetten.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/hoengger-2023-feriendestination-ruetihuetten.html
+  archiv_parse_status: parsed
+  archiv_bilder:
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2023-feriendestination-ruetihuetten/01-ruetihuetten-fest.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2023-feriendestination-ruetihuetten/02-ruetihuetten-fest-1600x0-c-default.jpg
+  archiv_bilder_anzahl: 2
+  archiv_bilder_status: archived
+- id: hoengger-2023-fruehling-jetzt-auch-im-ruetihof
+  typ: article_pdf
+  titel: Frühling jetzt auch im Rütihof
+  datum: '2023-05-11'
+  quelle: Höngger
+  externe_url: https://hoengger.ch/wp-content/uploads/2023/05/20230511-HOENGG-HOENG_HB-0-WEB.pdf
+  lokale_kopie: ''
+  status: public
+  archiviert: true
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-2023-fruehling-jetzt-auch-im-ruetihof.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_downloads/hoengger-2023-fruehling-jetzt-auch-im-ruetihof.pdf
+  archiv_parse_status: parsed
+  archiv_bilder: []
+  archiv_bilder_anzahl: 0
+  archiv_bilder_status: none
+- id: hoengger-2020-ein-sommer-wie-kein-anderer
+  typ: article_pdf
+  titel: Ein Sommer wie kein anderer
+  datum: '2020-09-03'
+  quelle: Höngger
+  externe_url: https://hoengger.ch/wp-content/uploads/2020/09/20200903-Endfassung.pdf
+  lokale_kopie: ''
+  status: public
+  archiviert: true
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-2020-ein-sommer-wie-kein-anderer.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_downloads/hoengger-2020-ein-sommer-wie-kein-anderer.pdf
+  archiv_parse_status: parsed
+  archiv_bilder: []
+  archiv_bilder_anzahl: 0
+  archiv_bilder_status: none
+- id: hoengger-2020-saisonverlaengerung-bauspielplatz
+  typ: article_pdf
+  titel: Saisonverlängerung auf dem Bauspielplatz
+  datum: '2020-11-19'
+  quelle: Höngger
+  externe_url: https://hoengger.ch/wp-content/uploads/2020/11/20201119-Endfassung.pdf
+  lokale_kopie: ''
+  status: public
+  archiviert: true
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-2020-saisonverlaengerung-bauspielplatz.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_downloads/hoengger-2020-saisonverlaengerung-bauspielplatz.pdf
+  archiv_parse_status: parsed
+  archiv_bilder: []
+  archiv_bilder_anzahl: 0
+  archiv_bilder_status: none
+- id: hoengger-2019-bauen-im-herbst
+  typ: article
+  titel: Bauen im Herbst
+  datum: '2019-10-22'
+  quelle: Höngger
+  externe_url: https://hoengger.ch/bauen-im-herbst/
+  lokale_kopie: ''
+  status: public
+  archiviert: true
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-2019-bauen-im-herbst.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/hoengger-2019-bauen-im-herbst.html
+  archiv_parse_status: parsed
+  archiv_bilder:
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2019-bauen-im-herbst/01-on-Bau_1.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2019-bauen-im-herbst/02-on-Bau_1-1600x0-c-default.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2019-bauen-im-herbst/03-on-Bau_2-1600x0-c-default.jpg
+  archiv_bilder_anzahl: 3
+  archiv_bilder_status: archived
+- id: hoengger-2019-sommerfest-auf-dem-bauspielplatz
+  typ: article
+  titel: Sommerfest auf dem Bauspielplatz
+  datum: '2019-08-27'
+  quelle: Höngger
+  externe_url: https://hoengger.ch/sommerfest-auf-dem-bauspielplatz-2/
+  lokale_kopie: ''
+  status: public
+  archiviert: true
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-2019-sommerfest-auf-dem-bauspielplatz.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/hoengger-2019-sommerfest-auf-dem-bauspielplatz.html
+  archiv_parse_status: parsed
+  archiv_bilder:
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2019-sommerfest-auf-dem-bauspielplatz/01-on-IMGP8006.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2019-sommerfest-auf-dem-bauspielplatz/02-on-IMGP8006-1600x0-c-default.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2019-sommerfest-auf-dem-bauspielplatz/03-on-IMGP7993-1600x0-c-default.jpg
+  archiv_bilder_anzahl: 3
+  archiv_bilder_status: archived
+- id: hoengger-2019-startschuss-fuer-den-fruehling
+  typ: article
+  titel: Startschuss für den Frühling
+  datum: '2019-04-29'
+  quelle: Höngger
+  externe_url: https://hoengger.ch/startschuss-fuer-den-fruehling/
+  lokale_kopie: ''
+  status: public
+  archiviert: true
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-2019-startschuss-fuer-den-fruehling.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/hoengger-2019-startschuss-fuer-den-fruehling.html
+  archiv_parse_status: parsed
+  archiv_bilder:
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2019-startschuss-fuer-den-fruehling/01-on-b-gfeuer.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2019-startschuss-fuer-den-fruehling/02-on-b-gfeuer-1600x0-c-default.jpg
+  archiv_bilder_anzahl: 2
+  archiv_bilder_status: archived
+- id: hoengger-2018-marroni-zum-jahresabschluss
+  typ: article
+  titel: Marroni zum Jahresabschluss
+  datum: '2018-12-05'
+  quelle: Höngger
+  externe_url: https://hoengger.ch/marroni-zum-jahresabschluss/
+  lokale_kopie: ''
+  status: public
+  archiviert: true
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-2018-marroni-zum-jahresabschluss.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/hoengger-2018-marroni-zum-jahresabschluss.html
+  archiv_parse_status: parsed
+  archiv_bilder:
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2018-marroni-zum-jahresabschluss/01-on-Castagnata.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2018-marroni-zum-jahresabschluss/02-on-Castagnata-1600x0-c-default.jpg
+  archiv_bilder_anzahl: 2
+  archiv_bilder_status: archived
+- id: hoengger-2018-bauspielplatzfest-einmal-anders
+  typ: article
+  titel: Bauspielplatzfest einmal anders
+  datum: '2018-08-29'
+  quelle: Höngger
+  externe_url: https://hoengger.ch/bauspielplatzfest-einmal-anders/
+  lokale_kopie: ''
+  status: public
+  archiviert: true
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-2018-bauspielplatzfest-einmal-anders.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/hoengger-2018-bauspielplatzfest-einmal-anders.html
+  archiv_parse_status: parsed
+  archiv_bilder:
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2018-bauspielplatzfest-einmal-anders/01-on-bauspielplatzfest18.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2018-bauspielplatzfest-einmal-anders/02-on-bauspielplatzfest18-1600x0-c-default.jpg
+  archiv_bilder_anzahl: 2
+  archiv_bilder_status: archived
+- id: hoengger-2018-bauwoche-bei-den-ruetihuetten
+  typ: article
+  titel: Bauwoche bei den Rütihütten
+  datum: '2018-05-02'
+  quelle: Höngger
+  externe_url: https://hoengger.ch/bauwoche-bei-den-ruetihuetten/
+  lokale_kopie: ''
+  status: public
+  archiviert: true
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-2018-bauwoche-bei-den-ruetihuetten.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/hoengger-2018-bauwoche-bei-den-ruetihuetten.html
+  archiv_parse_status: parsed
+  archiv_bilder:
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2018-bauwoche-bei-den-ruetihuetten/01-on-r-tih-tten.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2018-bauwoche-bei-den-ruetihuetten/02-on-r-tih-tten-1600x0-c-default.jpg
+  archiv_bilder_anzahl: 2
+  archiv_bilder_status: archived
+- id: hoengger-2017-spielplatzfest-bei-den-ruetihuetten
+  typ: article
+  titel: Spielplatzfest bei den Rütihütten
+  datum: '2017-08-30'
+  quelle: Höngger
+  externe_url: https://hoengger.ch/spielplatzfest-bei-den-ruetihuetten/
+  lokale_kopie: ''
+  status: public
+  archiviert: true
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-2017-spielplatzfest-bei-den-ruetihuetten.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/hoengger-2017-spielplatzfest-bei-den-ruetihuetten.html
+  archiv_parse_status: parsed
+  archiv_bilder:
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2017-spielplatzfest-bei-den-ruetihuetten/01-ON-Bauspielplatz_1.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2017-spielplatzfest-bei-den-ruetihuetten/02-ON-Bauspielplatz_1-1600x0-c-default.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2017-spielplatzfest-bei-den-ruetihuetten/03-ON-Bauspielplatz3-1600x0-c-default.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2017-spielplatzfest-bei-den-ruetihuetten/04-ON-Bauspielplatz4-1600x0-c-default.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2017-spielplatzfest-bei-den-ruetihuetten/05-ON-Bauspielplatz5-1600x0-c-default.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2017-spielplatzfest-bei-den-ruetihuetten/06-ON-Bauspielplatz6-1600x0-c-default.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2017-spielplatzfest-bei-den-ruetihuetten/07-ON-Bauspielplatz7-1600x0-c-default.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2017-spielplatzfest-bei-den-ruetihuetten/08-ON-Bauspielplatz_2-1600x0-c-default.jpg
+  archiv_bilder_anzahl: 8
+  archiv_bilder_status: archived
+- id: hoengger-2017-indianerleben-auf-dem-bauspielplatz
+  typ: article
+  titel: Indianerleben auf dem Bauspielplatz
+  datum: '2017-10-25'
+  quelle: Höngger
+  externe_url: https://hoengger.ch/indianerleben-auf-dem-bauspielplatz/
+  lokale_kopie: ''
+  status: public
+  archiviert: true
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-2017-indianerleben-auf-dem-bauspielplatz.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/hoengger-2017-indianerleben-auf-dem-bauspielplatz.html
+  archiv_parse_status: parsed
+  archiv_bilder:
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2017-indianerleben-auf-dem-bauspielplatz/01-ON-Tageslager.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2017-indianerleben-auf-dem-bauspielplatz/02-ON-Tageslager-1600x0-c-default.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2017-indianerleben-auf-dem-bauspielplatz/03-ON-Tageslager_2-1600x0-c-default.jpg
+  archiv_bilder_anzahl: 3
+  archiv_bilder_status: archived
+- id: hoengger-2017-boeoegg-alleine-kein-sommer
+  typ: article
+  titel: Ein Böögg alleine macht eben doch keinen Sommer
+  datum: '2017-05-03'
+  quelle: Höngger
+  externe_url: https://hoengger.ch/ein-boeoegg-alleine-macht-eben-doch-keinen-sommer/
+  lokale_kopie: ''
+  status: public
+  archiviert: true
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-2017-boeoegg-alleine-kein-sommer.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/hoengger-2017-boeoegg-alleine-kein-sommer.html
+  archiv_parse_status: parsed
+  archiv_bilder:
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2017-boeoegg-alleine-kein-sommer/01-ON-Boegg.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2017-boeoegg-alleine-kein-sommer/02-ON-Boegg-1600x0-c-default.jpg
+  archiv_bilder_anzahl: 2
+  archiv_bilder_status: archived
+- id: hoengger-2016-grosses-fest-zum-jubilaeum
+  typ: article
+  titel: Grosses Fest zum Jubiläum
+  datum: '2016-09-20'
+  quelle: Höngger
+  externe_url: https://hoengger.ch/grosses-fest-zum-jubilaeum/
+  lokale_kopie: ''
+  status: public
+  archiviert: true
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-2016-grosses-fest-zum-jubilaeum.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/hoengger-2016-grosses-fest-zum-jubilaeum.html
+  archiv_parse_status: parsed
+  archiv_bilder:
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2016-grosses-fest-zum-jubilaeum/01-Festimpressionen4_Foto-Mireille-K-ser.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2016-grosses-fest-zum-jubilaeum/02-Festimpressionen4_Foto-Mireille-K-ser-1600x0-c-default.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2016-grosses-fest-zum-jubilaeum/03-Basteln2_Foto-Mireille-K-ser-1600x0-c-default.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2016-grosses-fest-zum-jubilaeum/04-Festimpressionen2_Foto-Mireille-K-ser-1600x0-c-default.jpg
+  archiv_bilder_anzahl: 4
+  archiv_bilder_status: archived
+- id: hoengger-2016-uebernachten-in-den-ruetihuetten
+  typ: article
+  titel: Übernachten in den Rütihütten
+  datum: '2016-08-24'
+  quelle: Höngger
+  externe_url: https://hoengger.ch/uebernachten-in-den-ruetihuetten/
+  lokale_kopie: ''
+  status: public
+  archiviert: true
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-2016-uebernachten-in-den-ruetihuetten.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/hoengger-2016-uebernachten-in-den-ruetihuetten.html
+  archiv_parse_status: parsed
+  archiv_bilder:
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2016-uebernachten-in-den-ruetihuetten/01-010.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2016-uebernachten-in-den-ruetihuetten/02-010-1600x0-c-default.jpg
+  archiv_bilder_anzahl: 2
+  archiv_bilder_status: archived
+- id: hoengger-2016-ein-nachmittag-bei-den-baumeistern
+  typ: article
+  titel: Ein Nachmittag bei den Baumeistern
+  datum: '2016-07-05'
+  quelle: Höngger
+  externe_url: https://hoengger.ch/ein-nachmittag-bei-den-baumeistern/
+  lokale_kopie: ''
+  status: public
+  archiviert: true
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-2016-ein-nachmittag-bei-den-baumeistern.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/hoengger-2016-ein-nachmittag-bei-den-baumeistern.html
+  archiv_parse_status: parsed
+  archiv_bilder:
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2016-ein-nachmittag-bei-den-baumeistern/01-bauspielplatzchriesif-scht-005-ON.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2016-ein-nachmittag-bei-den-baumeistern/02-bauspielplatzchriesif-scht-005-ON-1600x0-c-default.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2016-ein-nachmittag-bei-den-baumeistern/03-bauspielplatzchriesif-scht-014-ON-1600x0-c-default.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-2016-ein-nachmittag-bei-den-baumeistern/04-bauspielplatzchriesif-scht-001-ON-1600x0-c-default.jpg
+  archiv_bilder_anzahl: 4
+  archiv_bilder_status: archived
+- id: hoengger-2014-aufraeumtag
+  typ: article_pdf
+  titel: Aufräumtag auf dem Bauspielplatz
+  datum: '2014-11-27'
+  quelle: Höngger
+  externe_url: ''
+  lokale_kopie: /downloads/medien/hoengger-2014-aufraeumtag-bauspielplatz.pdf
+  status: public
+  archiviert: true
+  archiv_quelle: Website/Archiv/2026-07-07-ruetihuetten-alt/downloads/11.27.2014-H-ngger---Aufr-umtag-15.11.2014-10393f91f1a1.pdf
+  archiv_parse_status: parsed
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-2014-aufraeumtag.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-ruetihuetten-alt/downloads/11.27.2014-H-ngger---Aufr-umtag-15.11.2014-10393f91f1a1.pdf
+  archiv_bilder: []
+  archiv_bilder_anzahl: 0
+  archiv_bilder_status: none
+- id: hoengger-2015-sommerfest
+  typ: article_pdf
+  titel: Sommerfest Bauspielplatz
+  datum: '2015-09-03'
+  quelle: Höngger
+  externe_url: ''
+  lokale_kopie: /downloads/medien/hoengger-2015-sommerfest-bauspielplatz.pdf
+  status: public
+  archiviert: true
+  archiv_quelle: Website/Archiv/2026-07-07-ruetihuetten-alt/downloads/Sommerfest-Bauspielplatz-vom-29.8.2015_H-ngger-3.9.2015-3b4d79ca6761.pdf
+  archiv_parse_status: parsed
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-2015-sommerfest.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-ruetihuetten-alt/downloads/Sommerfest-Bauspielplatz-vom-29.8.2015_H-ngger-3.9.2015-3b4d79ca6761.pdf
+  archiv_bilder: []
+  archiv_bilder_anzahl: 0
+  archiv_bilder_status: none
+- id: hoengger-2015-winterpause
+  typ: article_pdf
+  titel: Bauspielplatz geht in die Winterpause
+  datum: '2015-11-19'
+  quelle: Höngger
+  externe_url: ''
+  lokale_kopie: /downloads/medien/hoengger-2015-winterpause-bauspielplatz.pdf
+  status: public
+  archiviert: true
+  archiv_quelle: Website/Archiv/2026-07-07-ruetihuetten-alt/downloads/H-ngger-19.11.2015---BSP-Winterpause-1e385671d9cc.pdf
+  archiv_parse_status: parsed
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-2015-winterpause.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-ruetihuetten-alt/downloads/H-ngger-19.11.2015---BSP-Winterpause-1e385671d9cc.pdf
+  archiv_bilder: []
+  archiv_bilder_anzahl: 0
+  archiv_bilder_status: none
+- id: zuerich-nord-2016-bericht-bauspielplatz
+  typ: article_pdf
+  titel: Bericht Bauspielplatz
+  datum: '2016-08-25'
+  quelle: Zürich Nord
+  externe_url: ''
+  lokale_kopie: /downloads/medien/zuerich-nord-2016-bericht-bauspielplatz.pdf
+  status: public
+  archiviert: true
+  archiv_quelle: Website/Archiv/2026-07-07-ruetihuetten-alt/downloads/Z-rich-Nord-25.08.2016---Bericht-BSP-b3ceac714c55.pdf
+  archiv_parse_status: parsed
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/zuerich-nord-2016-bericht-bauspielplatz.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-ruetihuetten-alt/downloads/Z-rich-Nord-25.08.2016---Bericht-BSP-b3ceac714c55.pdf
+  archiv_bilder: []
+  archiv_bilder_anzahl: 0
+  archiv_bilder_status: none
+- id: stadt-zuerich-2006-eroeffnung-bauspielplatz-ruetihuetten
+  typ: official_notice
+  titel: '14. August 2006: Eröffnung Bauspielplatz Rütihütten'
+  datum: '2006-08-14'
+  quelle: Stadt Zürich
+  externe_url: https://stored-data.stadt-zuerich.ch/internet/mm/home/mm_06/08_06/060814a.html
+  lokale_kopie: ''
+  status: public
+  archiviert: true
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/stadt-zuerich-2006-eroeffnung-bauspielplatz-ruetihuetten.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/stadt-zuerich-2006-eroeffnung-bauspielplatz-ruetihuetten.html
+  archiv_parse_status: parsed
+  archiv_bilder: []
+  archiv_bilder_anzahl: 0
+  archiv_bilder_status: none
+- id: stadt-zuerich-sportportal-erste-siedler-pfahlbauer
+  typ: program_listing
+  titel: 'Bauspielplatz Rütihütten: Die ersten Siedler und Pfahlbauer'
+  datum: ''
+  quelle: Stadt Zürich Sportportal
+  externe_url: https://www.stadt-zuerich.ch/sport-portal/angebot/6632/Bauspielplatz_Ruetihuetten-_Die_ersten_Siedler_und_Pfahlbauer
+  lokale_kopie: ''
+  status: public
+  archiviert: false
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/stadt-zuerich-sportportal-erste-siedler-pfahlbauer.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/stadt-zuerich-sportportal-erste-siedler-pfahlbauer.html
+  archiv_parse_status: parsed
+  archiv_bilder: []
+  archiv_bilder_anzahl: 0
+  archiv_bilder_status: none
+- id: hoengger-vereinsverzeichnis-bauspielplatz-ruetihuetten
+  typ: directory
+  titel: Bauspielplatz Rütihütten
+  datum: '2021-11-26'
+  quelle: Höngger Vereinsverzeichnis
+  externe_url: https://hoengger.ch/vereinsverzeichnis/bauspielplatz-ruetihuetten/
+  lokale_kopie: ''
+  status: public
+  archiviert: false
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-vereinsverzeichnis-bauspielplatz-ruetihuetten.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/hoengger-vereinsverzeichnis-bauspielplatz-ruetihuetten.html
+  archiv_parse_status: parsed
+  archiv_bilder:
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-vereinsverzeichnis-bauspielplatz-ruetihuetten/01-Ruetihuetten_on.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/hoengger-vereinsverzeichnis-bauspielplatz-ruetihuetten/02-Ruetihuetten_on-1600x0-c-default.jpg
+  archiv_bilder_anzahl: 2
+  archiv_bilder_status: archived
+- id: quartierverein-hoengg-bauspielplatz-ruetihuetten
+  typ: directory
+  titel: Bauspielplatz Rütihütten
+  datum: ''
+  quelle: Quartierverein Höngg
+  externe_url: https://www.zuerich-hoengg.ch/de/hoengger_vereine/19/bauspielplatz-ruetihuetten
+  lokale_kopie: ''
+  status: public
+  archiviert: false
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/quartierverein-hoengg-bauspielplatz-ruetihuetten.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/quartierverein-hoengg-bauspielplatz-ruetihuetten.html
+  archiv_parse_status: parsed
+  archiv_bilder:
+  - Website/Archiv/2026-07-07-externe-medien/images/quartierverein-hoengg-bauspielplatz-ruetihuetten/01-BSP-Ruetihuetten-2.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/quartierverein-hoengg-bauspielplatz-ruetihuetten/02-BSP-Ruetihuetten-3.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/quartierverein-hoengg-bauspielplatz-ruetihuetten/03-BSP-Ruetihuetten-4.jpg
+  archiv_bilder_anzahl: 3
+  archiv_bilder_status: archived
+- id: kreis10-bauspielplatz-ruetihuetten
+  typ: directory
+  titel: Bauspielplatz Rütihütten
+  datum: ''
+  quelle: Kreis10
+  externe_url: https://kreis10.ch/de/locations/location/8049_Spielplaetze_Bauspielplatz-Ruettihuetten.php
+  lokale_kopie: ''
+  status: public
+  archiviert: false
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/kreis10-bauspielplatz-ruetihuetten.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/kreis10-bauspielplatz-ruetihuetten.html
+  archiv_parse_status: parsed
+  archiv_bilder:
+  - Website/Archiv/2026-07-07-externe-medien/images/kreis10-bauspielplatz-ruetihuetten/01-8049_Kinder_Bauspielplatz_Ruetihuetten.jpg
+  - Website/Archiv/2026-07-07-externe-medien/images/kreis10-bauspielplatz-ruetihuetten/02-8049_Kinder_Bauspielplatz_Ruetihuetten-c11f193b-4ae1949f-449w.jpg
+  archiv_bilder_anzahl: 2
+  archiv_bilder_status: archived
+- id: future-lab-zuerich-bauspielplatz-ruetihuetten
+  typ: directory
+  titel: Bauspielplatz Rütihütten
+  datum: ''
+  quelle: Future Lab Zürich
+  externe_url: https://future-lab.zuerich/mint-angebote/UgAAAKOZSkSXvSFjB3qfak9mZg/bauspielplatz-ruetihuetten
+  lokale_kopie: ''
+  status: public
+  archiviert: false
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/future-lab-zuerich-bauspielplatz-ruetihuetten.md
+  archiv_parse_status: failed
+  archiv_bilder: []
+  archiv_bilder_anzahl: 0
+  archiv_bilder_status: none
+- id: kiwanis-hoengg-kinder-bauspielplatz-ruetihuetten
+  typ: supporter_mention
+  titel: Kinder-Bauspielplatz Rütihütten
+  datum: ''
+  quelle: Kiwanis-Club Zürich-Höngg
+  externe_url: https://kiwanis-hoengg.ch/zuerich-hoengg-schweiz-kinder-bauspielplatz-ruetihuetten/
+  lokale_kopie: ''
+  status: public
+  archiviert: false
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/kiwanis-hoengg-kinder-bauspielplatz-ruetihuetten.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/kiwanis-hoengg-kinder-bauspielplatz-ruetihuetten.html
+  archiv_parse_status: parsed
+  archiv_bilder:
+  - Website/Archiv/2026-07-07-externe-medien/images/kiwanis-hoengg-kinder-bauspielplatz-ruetihuetten/01-BSP-Ruetihuetten-4.jpg
+  archiv_bilder_anzahl: 1
+  archiv_bilder_status: archived
+- id: zurini-kreis-10-hoengg-mit-kindern
+  typ: external_mention
+  titel: 'Ein Tag im Kreis 10: Höngg mit Kindern'
+  datum: 2026-06
+  quelle: Zurini
+  externe_url: https://zurini.ch/k10/ein-tag-im-kreis-10-hoengg-mit-kindern-bauernhof-abenteuer-und-spielspass/
+  lokale_kopie: ''
+  status: review
+  archiviert: false
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/zurini-kreis-10-hoengg-mit-kindern.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/zurini-kreis-10-hoengg-mit-kindern.html
+  archiv_parse_status: parsed
+  archiv_bilder:
+  - Website/Archiv/2026-07-07-externe-medien/images/zurini-kreis-10-hoengg-mit-kindern/01-Indoor-Spielplatz-1190x1190-1.jpg
+  archiv_bilder_anzahl: 1
+  archiv_bilder_status: archived
+- id: hoengger-event-herbstbauwoche-2025
+  typ: event_listing
+  titel: Herbstbauwoche auf dem Bauspielplatz Rütihütten
+  datum: '2025-09-11'
+  quelle: Höngger Veranstaltung
+  externe_url: https://hoengger.ch/event/bauspielplatz-ruetihuetten-2025/
+  lokale_kopie: ''
+  status: public
+  archiviert: true
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-event-herbstbauwoche-2025.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/hoengger-event-herbstbauwoche-2025.html
+  archiv_parse_status: parsed
+  archiv_bilder: []
+  archiv_bilder_anzahl: 0
+  archiv_bilder_status: none
+- id: hoengger-event-herbstbauwoche-2024
+  typ: event_listing
+  titel: Herbstbauwoche auf dem Bauspielplatz Rütihütten
+  datum: '2024-09-26'
+  quelle: Höngger Veranstaltung
+  externe_url: https://hoengger.ch/event/bauspielplatz-ruetihuetten-2-2-2/
+  lokale_kopie: ''
+  status: public
+  archiviert: true
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-event-herbstbauwoche-2024.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/hoengger-event-herbstbauwoche-2024.html
+  archiv_parse_status: parsed
+  archiv_bilder: []
+  archiv_bilder_anzahl: 0
+  archiv_bilder_status: none
+- id: hoengger-event-castagnata-2025
+  typ: event_listing
+  titel: 'Bauspielplatz Rütihütten: Castagnata 2025'
+  datum: '2026-05-06'
+  quelle: Höngger Veranstaltung
+  externe_url: https://hoengger.ch/event/bauspielplatz-ruetihuetten-castagnata-2025-2/
+  lokale_kopie: ''
+  status: public
+  archiviert: true
+  archiv_markdown: Website/Archiv/2026-07-07-externe-medien/markdown/hoengger-event-castagnata-2025.md
+  archiv_rohdatei: Website/Archiv/2026-07-07-externe-medien/raw_html/hoengger-event-castagnata-2025.html
+  archiv_parse_status: parsed
+  archiv_bilder: []
+  archiv_bilder_anzahl: 0
+  archiv_bilder_status: none

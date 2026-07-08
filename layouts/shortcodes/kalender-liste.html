@@ -1,0 +1,23 @@
+{{ $heute := now.Format "2006-01-02" }}
+{{ $eintraege := where hugo.Data.kalender.eintraege "datum" "ge" $heute }}
+<div class="calendar-list">
+  {{ range $eintraege }}
+    <article class="calendar-row {{ if .faellt_aus }}is-cancelled{{ end }}">
+      <time datetime="{{ .datum }}">{{ partial "date-display.html" .datum }}</time>
+      <div>
+        <strong>{{ .titel }}</strong>
+        {{ with .hinweis }}<p>{{ . }}</p>{{ end }}
+        {{ with .ausfall_hinweis }}<p>{{ . }}</p>{{ end }}
+      </div>
+      <span>
+        {{ if .offen }}
+          {{ .beginn }}-{{ .ende }} Uhr
+        {{ else if eq .typ "event" }}
+          Anlass
+        {{ else }}
+          geschlossen
+        {{ end }}
+      </span>
+    </article>
+  {{ end }}
+</div>

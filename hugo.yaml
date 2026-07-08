@@ -1,0 +1,49 @@
+baseURL: "https://www.ruetihuetten.ch/"
+title: "Bauspielplatz Rütihütten"
+defaultContentLanguage: "de"
+defaultContentLanguageInSubdir: false
+timeZone: "Europe/Zurich"
+disableKinds:
+  - taxonomy
+  - term
+enableRobotsTXT: true
+summaryLength: 24
+buildFuture: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  organisationName: "Verein Bauspielplatz Rütihütten"
+  description: "Bauspielplatz Rütihütten in Zürich-Höngg: bauen, werken und draussen sein für Kinder aus dem Quartier."
+  email: "info@ruetihuetten.ch"
+  address:
+    name: "Bauspielplatz Rütihütten"
+    street: "Hurdäckerstrasse"
+    locality: "8049 Zürich"
+    country: "CH"
+  imageCreditNotice: "Bildrechte: Bauspielplatz Rütihütten, sofern nicht anders angegeben."
+
+languages:
+  de:
+    locale: "de-CH"
+    direction: "ltr"
+    label: "Deutsch"
+    contentDir: "content/de"
+    weight: 1
+    menu:
+      main:
+        - name: "Aktuell"
+          pageRef: "/"
+          weight: 1
+        - name: "Kalender"
+          pageRef: "/kalender"
+          weight: 10
+        - name: "Bauspielplatz"
+          pageRef: "/bauspielplatz"
+          weight: 20
+        - name: "Kontakt & Unterstützen"
+          pageRef: "/kontakt-unterstuetzen"
+          weight: 30

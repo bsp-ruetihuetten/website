@@ -1,0 +1,21 @@
+{{ $heute := now.Format "2006-01-02" }}
+{{ $events := first 4 (where (where hugo.Data.kalender.eintraege "datum" "ge" $heute) "typ" "event") }}
+{{ if $events }}
+  <section class="section">
+    <div class="section-heading">
+      <p class="eyebrow">Anlässe</p>
+      <h2>Nächste besondere Termine</h2>
+    </div>
+    <div class="event-grid">
+      {{ range $events }}
+        <article class="event-card">
+          <time datetime="{{ .datum }}">{{ partial "date-display.html" .datum }}</time>
+          <h3>{{ .titel }}</h3>
+          {{ with .hinweis }}<p>{{ . }}</p>{{ end }}
+          {{ with .download }}<a href="{{ . }}">Download</a>{{ end }}
+          {{ with .url }}<a href="{{ . }}">Mehr zum Anlass</a>{{ end }}
+        </article>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

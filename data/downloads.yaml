@@ -1,0 +1,36 @@
+downloads:
+  - id: jahresprogramm-2026
+    titel: Jahresprogramm 2026
+    typ: programm
+    pfad: /downloads/programm/jahresprogramm-2026.pdf
+    status: public
+
+  - id: statuten-2015
+    titel: Statuten Bauspielplatz Rütihütten
+    typ: statuten
+    pfad: /downloads/statuten/statuten-bauspielplatz-2015.pdf
+    status: public
+
+  - id: hoengger-2014-aufraeumtag
+    titel: Höngger 2014 - Aufräumtag auf dem Bauspielplatz
+    typ: medien
+    pfad: /downloads/medien/hoengger-2014-aufraeumtag-bauspielplatz.pdf
+    status: public
+
+  - id: hoengger-2015-sommerfest
+    titel: Höngger 2015 - Sommerfest Bauspielplatz
+    typ: medien
+    pfad: /downloads/medien/hoengger-2015-sommerfest-bauspielplatz.pdf
+    status: public
+
+  - id: hoengger-2015-winterpause
+    titel: Höngger 2015 - Bauspielplatz geht in die Winterpause
+    typ: medien
+    pfad: /downloads/medien/hoengger-2015-winterpause-bauspielplatz.pdf
+    status: public
+
+  - id: zuerich-nord-2016-bericht-bauspielplatz
+    titel: Zürich Nord 2016 - Bericht Bauspielplatz
+    typ: medien
+    pfad: /downloads/medien/zuerich-nord-2016-bericht-bauspielplatz.pdf
+    status: public

@@ -1,0 +1,13 @@
+<div class="download-list">
+  {{ range hugo.Data.jahresberichte.jahresberichte }}
+    {{ if eq (.status | default "public") "public" }}
+      <article class="download-row">
+        <div>
+          <strong>{{ .titel }}</strong>
+          <p>PDF · {{ .jahr }}</p>
+        </div>
+        <a href="{{ .pfad }}">Download</a>
+      </article>
+    {{ end }}
+  {{ end }}
+</div>

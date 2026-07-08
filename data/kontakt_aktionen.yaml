@@ -1,0 +1,47 @@
+kontakt_aktionen:
+  - id: support
+    beschriftung: Spenden oder unterstützen
+    email: info@ruetihuetten.ch
+    betreff: Bauspielplatz Rütihütten unterstützen
+    text: |
+      Liebe Verantwortliche des Bauspielplatz Rütihütten
+
+      Ich möchte den Bauspielplatz gerne unterstützen, weil mir eine sinnvolle und kreative Freizeitgestaltung im Rütihof am Herzen liegt.
+
+      Name:
+      Organisation / Firma, falls relevant:
+      Art der Unterstützung:
+      Telefonnummer:
+      Nachricht:
+
+      Freundliche Grüsse
+
+  - id: membership
+    beschriftung: Frage zu Ablauf oder Aktivitäten
+    email: info@ruetihuetten.ch
+    betreff: Frage zu Ablauf oder Aktivitäten
+    text: |
+      Liebe Verantwortliche des Bauspielplatz Rütihütten
+
+      Ich habe eine Frage zum Ablauf, zu den Aktivitäten oder zum Besuch des Bauspielplatzes.
+
+      Name:
+      Frage:
+      Telefonnummer, falls Rückruf gewünscht:
+
+      Freundliche Grüsse
+
+  - id: team
+    beschriftung: Team kontaktieren
+    email: info@ruetihuetten.ch
+    betreff: Kontakt Bauspielplatz Rütihütten
+    text: |
+      Liebe Verantwortliche des Bauspielplatz Rütihütten
+
+      Ich möchte mit dem Team Kontakt aufnehmen.
+
+      Name:
+      Anliegen:
+      Telefonnummer, falls Rückruf gewünscht:
+
+      Freundliche Grüsse

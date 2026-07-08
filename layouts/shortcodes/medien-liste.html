@@ -1,0 +1,17 @@
+<div class="media-list">
+  {{ range hugo.Data.medien_eintraege.medien_eintraege }}
+    {{ if eq (.status | default "public") "public" }}
+      <article class="media-row">
+        <div>
+          <strong>{{ .titel }}</strong>
+          <p>{{ .quelle }}{{ with .datum }} · {{ . }}{{ end }}</p>
+        </div>
+        {{ if .externe_url }}
+          <a href="{{ .externe_url }}" rel="noopener">Zur Quelle</a>
+        {{ else if .lokale_kopie }}
+          <a href="{{ .lokale_kopie }}">Archivkopie</a>
+        {{ end }}
+      </article>
+    {{ end }}
+  {{ end }}
+</div>

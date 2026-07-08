@@ -1,0 +1,99 @@
+ordner:
+  site:
+    quelle: "Archiv alte Website"
+    verwendung: ["website"]
+    kinder_sichtbar: false
+    freigabe_geprueft: false
+    hinweis: "Vor Publikation final prüfen."
+
+bilder:
+  site/hero-holzplattform.jpg:
+    quelle: "Archiv alte Website: image-96151fa0bdf4.jpg"
+    verwendung: ["website"]
+    kinder_sichtbar: false
+    freigabe_geprueft: false
+    bildnachweis: "Bauspielplatz Rütihütten"
+
+  site/panorama-platz-alt.jpg:
+    quelle: "Archiv alte Website: image-244a0ccd1374.jpg"
+    verwendung: ["startseite", "hero"]
+    kinder_sichtbar: true
+    freigabe_geprueft: false
+    bildnachweis: "Bauspielplatz Rütihütten"
+
+  site/platz-eingang.jpg:
+    quelle: "Archiv alte Website: image-cae35956b502.jpg"
+    verwendung: ["website"]
+    kinder_sichtbar: false
+    freigabe_geprueft: false
+    bildnachweis: "Bauspielplatz Rütihütten"
+
+  images/site/holzvertaefelung-alt.jpg:
+    quelle: "Archiv alte Website: image-a9c127d55f08.png"
+    verwendung: ["website", "hintergrund"]
+    kinder_sichtbar: false
+    freigabe_geprueft: false
+    bildnachweis: "Bauspielplatz Rütihütten"
+
+  events/2026_pfuus/pfuus-2026-schlafplatz.jpg:
+    quelle: "Direkt bereitgestellt für Pfuus 2026"
+    verwendung: ["event", "galerie", "startseite"]
+    kinder_sichtbar: false
+    freigabe_geprueft: true
+    bildnachweis: "Bauspielplatz Rütihütten"
+
+  events/2026_booegg/01-booegg-2026-feuerplatz.jpg:
+    quelle: "Direkt bereitgestellt für Böögg 2026"
+    verwendung: ["event", "galerie", "startseite"]
+    kinder_sichtbar: true
+    freigabe_geprueft: true
+    bildnachweis: "Bauspielplatz Rütihütten"
+
+  events/2026_booegg/02-booegg-2026-feuer.jpg:
+    quelle: "Direkt bereitgestellt für Böögg 2026"
+    verwendung: ["event", "galerie", "startseite"]
+    kinder_sichtbar: true
+    freigabe_geprueft: true
+    bildnachweis: "Bauspielplatz Rütihütten"
+
+  events/2026_booegg/03-booegg-2026-vorbereitung.jpg:
+    quelle: "Direkt bereitgestellt für Böögg 2026"
+    verwendung: ["event", "galerie", "startseite"]
+    kinder_sichtbar: true
+    freigabe_geprueft: true
+    bildnachweis: "Bauspielplatz Rütihütten"
+
+  icons/bauspielplatz-icon-32.png:
+    quelle: "Archiv alte Website: favicon-93e412a2f4ec.ico"
+    verwendung: ["favicon", "header"]
+    kinder_sichtbar: false
+    freigabe_geprueft: false
+    bildnachweis: "Bauspielplatz Rütihütten"
+
+  logo/bauspielplatz-ruetihuetten-logo.png:
+    quelle: "Archiv alte Website: Statuten-BSP_Endversion-2015-5035c34e595b.pdf und Bauspielplatzpfuus-Anmeldung-2026-63a9868011bf.docx"
+    verwendung: ["header", "branding"]
+    kinder_sichtbar: false
+    freigabe_geprueft: false
+    bildnachweis: "Bauspielplatz Rütihütten"
+
+  logo/bauspielplatz-ruetihuetten-logo-light-transparent.png:
+    quelle: "Abgeleitet aus logo/bauspielplatz-ruetihuetten-logo.png; Transparenzmaske aus logo/bauspielplatz-ruetihuetten-logo-dark-transparent.png."
+    verwendung: ["header", "branding", "light-mode"]
+    kinder_sichtbar: false
+    freigabe_geprueft: false
+    bildnachweis: "Bauspielplatz Rütihütten"
+
+  logo/bauspielplatz-ruetihuetten-logo-dark-transparent.png:
+    quelle: "Abgeleitet aus logo/bauspielplatz-ruetihuetten-logo.png; Hintergrund transparent und Wortmarke für Dark Mode aufgehellt."
+    verwendung: ["header", "branding", "dark-mode"]
+    kinder_sichtbar: false
+    freigabe_geprueft: false
+    bildnachweis: "Bauspielplatz Rütihütten"
+
+  apple-touch-icon.png:
+    quelle: "Archiv alte Website: favicon-93e412a2f4ec.ico"
+    verwendung: ["apple-touch-icon"]
+    kinder_sichtbar: false
+    freigabe_geprueft: false
+    bildnachweis: "Bauspielplatz Rütihütten"

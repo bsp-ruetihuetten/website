@@ -1,0 +1,11 @@
+<div class="action-grid">
+  {{ range hugo.Data.kontakt_aktionen.kontakt_aktionen }}
+    {{ $betreff := partial "mailto-escape.html" .betreff }}
+    {{ $text := partial "mailto-escape.html" .text }}
+    {{ $href := printf "mailto:%s?subject=%s&body=%s" .email $betreff $text | safeURL }}
+    <a class="action-card" href="{{ $href }}">
+      <strong>{{ .beschriftung }}</strong>
+      <span>{{ .betreff }}</span>
+    </a>
+  {{ end }}
+</div>

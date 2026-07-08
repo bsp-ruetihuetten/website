@@ -1,0 +1,33 @@
+{{ $heute := now.Format "2006-01-02" }}
+{{ $heuteEintraege := where hugo.Data.kalender.eintraege "datum" $heute }}
+{{ $hatBanner := false }}
+
+{{ range $heuteEintraege }}
+  {{ if .offen }}
+    {{ $hatBanner = true }}
+    {{ if .faellt_aus }}
+      <section class="status-banner status-cancelled" aria-label="Aktueller Status">
+        <p class="eyebrow">Heute</p>
+        <h2>{{ .ausfall_hinweis | default "Fällt heute leider aus" }}</h2>
+        {{ with .hinweis }}<p>{{ . }}</p>{{ end }}
+      </section>
+    {{ else }}
+      <section class="status-banner status-open" aria-label="Aktueller Status">
+        <p class="eyebrow">Heute</p>
+        <h2>Bauspielplatz heute offen</h2>
+        <p>{{ .beginn }}-{{ .ende }} Uhr</p>
+      </section>
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if not $hatBanner }}
+  {{ $naechste := first 1 (where (where hugo.Data.kalender.eintraege "datum" "ge" $heute) "offen" true) }}
+  {{ with index $naechste 0 }}
+    <section class="status-banner status-next" aria-label="Nächste Öffnung">
+      <p class="eyebrow">Nächste Öffnung</p>
+      <h2>{{ partial "date-display.html" .datum }}</h2>
+      <p>{{ .beginn }}-{{ .ende }} Uhr</p>
+    </section>
+  {{ end }}
+{{ end }}

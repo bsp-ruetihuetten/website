@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="{{ site.Language.Lang }}">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    {{ partial "header.html" . }}
+    <main id="main">
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ partial "footer.html" . }}
+    <script>
+      (function () {
+        var button = document.querySelector(".theme-toggle");
+        if (!button) return;
+
+        var applyTheme = function (theme) {
+          document.documentElement.dataset.theme = theme;
+          try {
+            localStorage.setItem("theme", theme);
+          } catch (error) {}
+          var isDark = theme === "dark";
+          button.setAttribute("aria-pressed", isDark ? "true" : "false");
+          button.setAttribute("aria-label", isDark ? "Helle Darstellung aktivieren" : "Dunkle Darstellung aktivieren");
+          button.setAttribute("title", isDark ? "Helle Darstellung aktivieren" : "Dunkle Darstellung aktivieren");
+        };
+
+        applyTheme(document.documentElement.dataset.theme === "dark" ? "dark" : "light");
+        button.addEventListener("click", function () {
+          applyTheme(document.documentElement.dataset.theme === "light" ? "dark" : "light");
+        });
+      }());
+    </script>
+  </body>
+</html>

@@ -1,0 +1,459 @@
+jahr: 2026
+quelle:
+  titel: Jahresprogramm Bauspielplatz Rütihütten 2026
+  archiv_pdf: Website/Archiv/2026-07-07-ruetihuetten-alt/downloads/JahresprogrammBSP2026-8b2307627d21.pdf
+  archiv_agenda_text: Website/Archiv/2026-07-07-ruetihuetten-alt/text/agenda.md
+  extrahiert_am: '2026-07-07'
+standard_oeffnungszeiten:
+  beginn: '14:00'
+  ende: '17:30'
+  anzeige: 14:00-17:30 Uhr
+schulfreie_zeiten:
+- startdatum: '2026-04-03'
+  enddatum: '2026-04-06'
+  titel: Ostern / schulfrei
+- startdatum: '2026-04-20'
+  enddatum: '2026-05-03'
+  titel: Frühlingsferien / schulfrei
+- startdatum: '2026-07-04'
+  enddatum: '2026-08-16'
+  titel: Sommerferien
+- startdatum: '2026-09-14'
+  enddatum: '2026-09-14'
+  titel: Knabenschiessen
+- startdatum: '2026-10-03'
+  enddatum: '2026-10-18'
+  titel: Herbstferien
+eintraege:
+- datum: '2026-03-07'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-03-11'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-03-14'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-03-18'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-03-21'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-03-25'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-03-28'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-04-01'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-04-08'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-04-11'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-04-15'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-04-18'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-04-20'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+  hinweis: Sechseläuten
+- datum: '2026-04-21'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-04-22'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-05-06'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-05-09'
+  titel: Böögg
+  typ: event
+  offen: false
+  faellt_aus: false
+  hinweis: Frühlingsanlass mit Böögg-Verbrennen auf dem Bauspielplatz.
+  zeige_auf_startseite: true
+  url: /events/2026/booegg/
+  galerie: events/2026_booegg
+- datum: '2026-05-13'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-05-16'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-05-20'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-05-23'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-05-27'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-05-30'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-06-03'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-06-06'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-06-10'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-06-13'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-06-17'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-06-20'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-06-24'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-06-27'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-07-01'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-07-03'
+  titel: Pfuus
+  typ: event
+  offen: false
+  faellt_aus: false
+  enddatum: '2026-07-04'
+  hinweis: Schlafen auf dem Bauspielplatz mit Lagerfeuer und einer Nacht unter freiem Himmel.
+  zeige_auf_startseite: true
+  url: /events/2026/pfuus/
+  galerie: events/2026_pfuus
+- datum: '2026-07-04'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-07-08'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-08-19'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-08-22'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-08-26'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-08-29'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-09-02'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-09-05'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-09-09'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-09-12'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-09-16'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-09-19'
+  titel: Clean-up Day
+  typ: event
+  offen: false
+  faellt_aus: false
+  hinweis: Gemeinsam das Quartier, den Wald und die Umgebung des Bauspielplatzes sauber halten.
+  zeige_auf_startseite: true
+  url: /events/2026/clean-up-day/
+  galerie: events/2026_clean-up-day
+- datum: '2026-09-23'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-09-26'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-09-30'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-10-03'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-10-05'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-10-06'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-10-07'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-10-21'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-10-24'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-10-28'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-10-31'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-11-04'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-11-07'
+  titel: Castagnata
+  typ: event
+  offen: false
+  faellt_aus: false
+  hinweis: Herbstlicher Treffpunkt mit Marroni und Begegnung auf dem Platz.
+  zeige_auf_startseite: true
+  url: /events/2026/castagnata/
+  galerie: events/2026_castagnata
+- datum: '2026-11-11'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2026-11-14'
+  titel: Aufräumen
+  typ: event
+  offen: false
+  faellt_aus: false
+  hinweis: Gemeinsam den Platz winterbereit machen und die Saison abschliessen.
+  zeige_auf_startseite: true
+  url: /events/2026/aufraeumen/
+  galerie: events/2026_aufraeumen

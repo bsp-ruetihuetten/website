@@ -1,0 +1,54 @@
+{{ $heute := time (now.Format "2006-01-02") }}
+{{ $eventsSection := site.GetPage "/events" }}
+{{ $rueckblicke := slice }}
+
+{{ with $eventsSection }}
+  {{ range .RegularPages.ByDate.Reverse }}
+    {{ $hatText := gt (len (strings.TrimSpace .Plain)) 0 }}
+    {{ $hatGalerie := false }}
+    {{ with .Params.galerie }}
+      {{ range resources.Match (printf "images/%s/*" .) }}
+        {{ if reflect.IsImageResourceProcessable . }}
+          {{ $hatGalerie = true }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ if and (le .Date $heute) (or $hatText $hatGalerie) }}
+      {{ $rueckblicke = $rueckblicke | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if $rueckblicke }}
+  <section class="section">
+    <div class="section-heading">
+      <p class="eyebrow">Rückblicke</p>
+      <h2>Zuletzt auf dem Bauspielplatz</h2>
+    </div>
+    <div class="story-grid">
+      {{ range first 3 $rueckblicke }}
+        {{ $bild := false }}
+        {{ with .Params.galerie }}
+          {{ range resources.Match (printf "images/%s/*" .) }}
+            {{ if and (not $bild) (reflect.IsImageResourceProcessable .) }}
+              {{ $bild = .Fill "720x480 Center" }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        <article class="story-card">
+          {{ with $bild }}
+            <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
+          {{ end }}
+          <div>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ partial "date-display.html" (.Date.Format "2006-01-02") }}</time>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            {{ $rohtext := replaceRE "(?s)\\n\\s*{{<.*" "" .RawContent }}
+            {{ $rohtext = replaceRE "(?m)^- \\[.*\\]\\(.*\\)\\s*$" "" $rohtext }}
+            {{ $teaser := .Params.teaser | default ($rohtext | markdownify | plainify | strings.TrimSpace) }}
+            {{ with $teaser }}<p>{{ . | truncate 180 }}</p>{{ end }}
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

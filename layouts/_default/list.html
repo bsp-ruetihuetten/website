@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <section class="container page">
+    <header class="page-header">
+      <p class="eyebrow">{{ if .Params.archiviert }}Archiv{{ else }}Bauspielplatz Rütihütten{{ end }}</p>
+      <h1>{{ .Title }}</h1>
+    </header>
+    <div class="prose">
+      {{ .Content }}
+    </div>
+    {{ if .Pages }}
+      <div class="event-grid">
+        {{ range .Pages }}
+          <article class="event-card">
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            {{ with .Date }}<time datetime="{{ .Format "2006-01-02" }}">{{ .Format "02.01.2006" }}</time>{{ end }}
+            {{ with .Summary }}<p>{{ . }}</p>{{ end }}
+          </article>
+        {{ end }}
+      </div>
+    {{ end }}
+  </section>
+{{ end }}

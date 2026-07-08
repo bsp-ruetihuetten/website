@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <article class="container page">
+    <header class="page-header">
+      <p class="eyebrow">{{ if .Params.archiviert }}Archiv{{ else }}Bauspielplatz Rütihütten{{ end }}</p>
+      <h1>{{ .Title }}</h1>
+    </header>
+    <div class="prose">
+      {{ .Content }}
+    </div>
+  </article>
+{{ end }}
