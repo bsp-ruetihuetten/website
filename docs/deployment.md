@@ -2,7 +2,7 @@
 
 Testplattform: GitHub Pages im Repository `bsp-ruetihuetten/website`.
 
-Zielplattform für die produktive Domain bleibt Cloudflare Pages, analog Greiterhof.
+Zielplattform für die produktive Domain bleibt Cloudflare Pages.
 
 ## GitHub Pages Test
 

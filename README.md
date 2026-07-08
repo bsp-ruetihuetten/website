@@ -2,7 +2,7 @@
 
 Statische Hugo-Website für `www.ruetihuetten.ch`.
 
-Die Struktur folgt dem Greiterhof-Muster, bleibt aber bewusst einfacher: eine Sprache, wenige Hauptseiten, Kalender als zentrale Datenquelle und Mailto-Aktionen statt Kontaktformular.
+Die Struktur bleibt bewusst einfach: eine Sprache, wenige Hauptseiten, Kalender als zentrale Datenquelle und Mailto-Aktionen statt Kontaktformular.
 
 ## Pflegebereiche
 
