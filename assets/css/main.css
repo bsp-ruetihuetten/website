@@ -40,7 +40,7 @@ html[data-theme="dark"] {
 body {
   margin: 0;
   background-color: var(--bg);
-  background-image: var(--wood-overlay), url("/images/site/holzvertaefelung-alt.jpg");
+  background-image: var(--wood-overlay), url("../images/site/holzvertaefelung-alt.jpg");
   background-attachment: fixed;
   background-size: auto, 620px auto;
   color: var(--ink);

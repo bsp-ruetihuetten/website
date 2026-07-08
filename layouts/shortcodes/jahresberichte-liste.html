@@ -6,7 +6,7 @@
           <strong>{{ .titel }}</strong>
           <p>PDF · {{ .jahr }}</p>
         </div>
-        <a href="{{ .pfad }}">Download</a>
+        <a href="{{ strings.TrimPrefix "/" .pfad | relURL }}">Download</a>
       </article>
     {{ end }}
   {{ end }}

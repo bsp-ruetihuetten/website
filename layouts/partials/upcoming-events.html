@@ -12,8 +12,8 @@
           <time datetime="{{ .datum }}">{{ partial "date-display.html" .datum }}</time>
           <h3>{{ .titel }}</h3>
           {{ with .hinweis }}<p>{{ . }}</p>{{ end }}
-          {{ with .download }}<a href="{{ . }}">Download</a>{{ end }}
-          {{ with .url }}<a href="{{ . }}">Mehr zum Anlass</a>{{ end }}
+          {{ with .download }}<a href="{{ strings.TrimPrefix "/" . | relURL }}">Download</a>{{ end }}
+          {{ with .url }}<a href="{{ strings.TrimPrefix "/" . | relURL }}">Mehr zum Anlass</a>{{ end }}
         </article>
       {{ end }}
     </div>

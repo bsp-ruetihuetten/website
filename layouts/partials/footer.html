@@ -4,11 +4,11 @@
     <p>{{ site.Params.address.street }}, {{ site.Params.address.locality }}</p>
   </div>
   <nav aria-label="Footer">
-    <a href="/jahresberichte/">Jahresberichte</a>
-    <a href="/medien/">Medien</a>
-    <a href="/kontakt-unterstuetzen/">Kontakt</a>
-    <a href="/archiv/">Archiv</a>
-    <a href="/rechtliches/impressum/">Impressum</a>
-    <a href="/rechtliches/datenschutz/">Datenschutz</a>
+    <a href="{{ "jahresberichte/" | relLangURL }}">Jahresberichte</a>
+    <a href="{{ "medien/" | relLangURL }}">Medien</a>
+    <a href="{{ "kontakt-unterstuetzen/" | relLangURL }}">Kontakt</a>
+    <a href="{{ "archiv/" | relLangURL }}">Archiv</a>
+    <a href="{{ "rechtliches/impressum/" | relLangURL }}">Impressum</a>
+    <a href="{{ "rechtliches/datenschutz/" | relLangURL }}">Datenschutz</a>
   </nav>
 </footer>

@@ -1,8 +1,25 @@
 # Deployment
 
-Zielplattform: Cloudflare Pages, analog Greiterhof.
+Testplattform: GitHub Pages im Repository `bsp-ruetihuetten/website`.
 
-## Build-Einstellungen
+Zielplattform für die produktive Domain bleibt Cloudflare Pages, analog Greiterhof.
+
+## GitHub Pages Test
+
+Die Website liegt im GitHub-Repository direkt im Repo-Root. Der Workflow
+`.github/workflows/pages.yml` baut Hugo und publiziert `public/` als
+GitHub-Pages-Artifact.
+
+Wichtige Punkte:
+
+- GitHub Pages in den Repository Settings auf `GitHub Actions` als Source stellen.
+- Build erfolgt mit `HUGO_VERSION=0.164.0`.
+- Der Workflow setzt `baseURL` automatisch auf die GitHub-Pages-URL.
+- Die Templates sind subpath-tauglich, damit `https://bsp-ruetihuetten.github.io/website/`
+  für den Test funktioniert.
+- Cloudflare-spezifische `_redirects` werden von GitHub Pages nicht ausgewertet.
+
+## Cloudflare Pages Build-Einstellungen
 
 - Framework preset: Hugo
 - Build command: `hugo --minify`

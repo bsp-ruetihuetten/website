@@ -1,14 +1,16 @@
 <header class="site-header">
-  <a class="brand" href="{{ "/" | relLangURL }}" aria-label="{{ site.Title }}">
+  <a class="brand" href="{{ site.Home.RelPermalink }}" aria-label="{{ site.Title }}">
     <span class="brand-logos">
-      <img class="brand-logo brand-logo-dark" src="/logo/bauspielplatz-ruetihuetten-logo-dark-transparent.png" alt="Bauspielplatz Rütihütten" width="217" height="88">
-      <img class="brand-logo brand-logo-light" src="/logo/bauspielplatz-ruetihuetten-logo-light-transparent.png" alt="Bauspielplatz Rütihütten" width="217" height="88">
+      <img class="brand-logo brand-logo-dark" src="{{ "logo/bauspielplatz-ruetihuetten-logo-dark-transparent.png" | relURL }}" alt="Bauspielplatz Rütihütten" width="217" height="88">
+      <img class="brand-logo brand-logo-light" src="{{ "logo/bauspielplatz-ruetihuetten-logo-light-transparent.png" | relURL }}" alt="Bauspielplatz Rütihütten" width="217" height="88">
     </span>
     <span class="brand-location">Zürich-Höngg</span>
   </a>
   <nav class="main-nav" aria-label="Hauptnavigation">
     {{ range site.Menus.main }}
-      <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+      {{ $href := .URL | relLangURL }}
+      {{ with .Page }}{{ $href = .RelPermalink }}{{ end }}
+      <a href="{{ $href }}">{{ .Name }}</a>
     {{ end }}
     <button class="theme-toggle" type="button" aria-label="Dunkle Darstellung aktivieren" aria-pressed="false" title="Dunkle Darstellung aktivieren">
       <span class="theme-icon theme-icon-sun" aria-hidden="true"></span>

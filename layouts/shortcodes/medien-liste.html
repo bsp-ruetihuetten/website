@@ -9,7 +9,7 @@
         {{ if .externe_url }}
           <a href="{{ .externe_url }}" rel="noopener">Zur Quelle</a>
         {{ else if .lokale_kopie }}
-          <a href="{{ .lokale_kopie }}">Archivkopie</a>
+          <a href="{{ strings.TrimPrefix "/" .lokale_kopie | relURL }}">Archivkopie</a>
         {{ end }}
       </article>
     {{ end }}

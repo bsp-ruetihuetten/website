@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import argparse
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlparse
@@ -10,6 +11,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
+BASE_PATH = ""
 
 
 class RefParser(HTMLParser):
@@ -64,6 +66,10 @@ def public_target_for(path: str) -> Path | None:
     local_path = unquote(parsed.path)
     if not local_path or local_path.startswith("//"):
         return None
+    if BASE_PATH and local_path.startswith(f"{BASE_PATH}/"):
+        local_path = local_path[len(BASE_PATH) :]
+    elif BASE_PATH and local_path == BASE_PATH:
+        local_path = "/"
     target = PUBLIC / local_path.lstrip("/")
     if local_path.endswith("/"):
         return target / "index.html"
@@ -91,7 +97,20 @@ def check_internal_links() -> None:
         raise SystemExit(1)
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--base-url",
+        default="",
+        help="Base URL used for the Hugo build; path prefix is stripped for local link checks.",
+    )
+    return parser.parse_args()
+
+
 def main() -> None:
+    global BASE_PATH
+    args = parse_args()
+    BASE_PATH = urlparse(args.base_url).path.rstrip("/")
     check_yaml()
     check_known_downloads()
     check_internal_links()
