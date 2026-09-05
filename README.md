@@ -7,6 +7,7 @@ Die Struktur bleibt bewusst einfach: eine Sprache, wenige Hauptseiten, Kalender 
 ## Pflegebereiche
 
 - `content/de/` - Seiten und Archivtexte
+- `data/aktuelle_hinweise.yaml` - zeitlich begrenzte Hinweise im Status-Banner
 - `data/kalender.yaml` - Öffnungstage, Ausfälle und Anlässe
 - `data/kontakt_aktionen.yaml` - Mailto-Aktionen
 - `data/medien_eintraege.yaml` - externe Medienberichte und Archivkopien
@@ -40,6 +41,7 @@ Der Check baut die Website, validiert YAML, prüft bekannte Download-Dateien und
 ## Wichtigste Datenlogik
 
 - Status-Banner: kommt aus `data/kalender.yaml`.
+- Aktive Einträge aus `data/aktuelle_hinweise.yaml` erscheinen vor dem Tagesstatus und lassen sich nach Ende des Hinweises mit `aktiv: false` ausblenden.
 - `offen: true` und `faellt_aus: false` zeigt "Bauspielplatz heute offen".
 - `offen: true` und `faellt_aus: true` zeigt "Fällt heute leider aus".
 - `typ: event` wird als kommender Anlass angezeigt.

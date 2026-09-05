@@ -1,0 +1,10 @@
+hinweise:
+  - id: feuerverbot-zuerich-2026
+    aktiv: true
+    label: Wichtiger Hinweis
+    titel: Unsere Feuerstelle bleibt zurzeit kalt
+    text: Aufgrund des aktuellen Feuerverbots der Stadt Zürich können wir auf dem Bauspielplatz momentan leider kein Feuer machen. Bauen, werken und spielen geht natürlich trotzdem – danke fürs Verständnis und fürs Mithelfen, dass es rund um den Wald sicher bleibt.
+    quelle_titel: Aktuelle Informationen der Stadt Zürich
+    quelle_url: https://www.stadt-zuerich.ch/de/aktuell/medienmitteilungen/2026/07/allgemeines-feuer-und-feuerwerksverbot-wegen-anhaltender-trockenheit.html
+    gueltig_bis: bis auf Widerruf
+    zuletzt_geprueft: '2026-09-05'

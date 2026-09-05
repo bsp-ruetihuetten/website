@@ -304,6 +304,28 @@ html[data-theme="dark"] .theme-icon-moon {
   color: rgba(255, 255, 255, 0.86);
 }
 
+.status-warning {
+  background: #8a4b16;
+  color: #fff;
+}
+
+.status-warning .eyebrow,
+.status-warning p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.status-warning a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration-color: rgba(255, 255, 255, 0.65);
+  text-underline-offset: 3px;
+}
+
+.status-source {
+  margin-bottom: 0;
+  font-size: 0.92rem;
+}
+
 .status-next {
   background: var(--surface);
   border: 1px solid var(--line);

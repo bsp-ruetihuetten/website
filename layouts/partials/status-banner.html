@@ -2,6 +2,15 @@
 {{ $heuteEintraege := where hugo.Data.kalender.eintraege "datum" $heute }}
 {{ $hatBanner := false }}
 
+{{ range where hugo.Data.aktuelle_hinweise.hinweise "aktiv" true }}
+  <section class="status-banner status-warning" aria-label="{{ .label }}">
+    <p class="eyebrow">{{ .label }}</p>
+    <h2>{{ .titel }}</h2>
+    <p>{{ .text }}</p>
+    <p class="status-source"><a href="{{ .quelle_url }}">{{ .quelle_titel }}</a> · {{ .gueltig_bis }}</p>
+  </section>
+{{ end }}
+
 {{ range $heuteEintraege }}
   {{ if .offen }}
     {{ $hatBanner = true }}
