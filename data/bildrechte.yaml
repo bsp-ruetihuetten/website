@@ -63,13 +63,6 @@ bilder:
     freigabe_geprueft: true
     bildnachweis: "Bauspielplatz Rütihütten"
 
-  events/2026_clean-up-day/01-clean-up-day-2026-helferteam.jpg:
-    quelle: "Direkt bereitgestellt für Clean-up Day 2026"
-    verwendung: ["event", "galerie", "startseite"]
-    kinder_sichtbar: true
-    freigabe_geprueft: true
-    bildnachweis: "Bauspielplatz Rütihütten"
-
   events/2026_clean-up-day/02-clean-up-day-2026-sammelaktion.jpg:
     quelle: "Direkt bereitgestellt für Clean-up Day 2026"
     verwendung: ["event", "galerie", "startseite"]
