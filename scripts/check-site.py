@@ -33,7 +33,7 @@ def load_yaml(path: Path) -> object:
 
 
 def check_yaml() -> None:
-    for path in sorted((ROOT / "data").glob("*.yaml")):
+    for path in sorted((ROOT / "data").rglob("*.yaml")):
         load_yaml(path)
 
 

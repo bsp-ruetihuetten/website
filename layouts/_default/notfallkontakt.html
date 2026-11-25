@@ -1,0 +1,80 @@
+{{ define "main" }}
+  {{ $plan := index hugo.Data.kalender "2027" }}
+  {{ $saisonende := index (sort $plan.eintraege "datum" "desc") 0 }}
+  {{ with .Resources.GetMatch "demo.css" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+  <article class="container page emergency-demo">
+    <p class="emergency-demo-notice"><strong>Testformular</strong> · Bitte nur Beispieldaten verwenden. Die SMS-Bestätigung wird simuliert. Deine Eingaben bleiben im Browser.</p>
+    <noscript><p>Für diese Vorschau ist JavaScript erforderlich.</p></noscript>
+
+    <section aria-labelledby="emergency-parent-title">
+      <header class="page-header">
+        <h1 id="emergency-parent-title">{{ .Title }}</h1>
+        <p>Spielt dein Kind ohne Begleitung bei uns? Du kannst freiwillig eine Mobilnummer hinterlegen, unter der die Spielplatzleitung im Notfall eine Bezugsperson erreicht.</p>
+      </header>
+      <div class="emergency-demo-card">
+        <form id="emergency-contact-form" autocomplete="off">
+          <fieldset id="emergency-contact-fields" class="emergency-demo-fields" disabled>
+            <div class="emergency-demo-name">
+              <div class="emergency-demo-field">
+                <label for="emergency-first-name">Vorname des Kindes</label>
+                <input id="emergency-first-name" type="text" maxlength="60" placeholder="Lina" required>
+              </div>
+              <div class="emergency-demo-field">
+                <label for="emergency-initial">Erster Buchstabe des Nachnamens</label>
+                <input id="emergency-initial" type="text" maxlength="2" pattern="\p{L}\p{M}?" autocapitalize="characters" placeholder="M" required>
+              </div>
+            </div>
+            <div class="emergency-demo-field">
+              <label for="emergency-phone">Mobilnummer für den Notfall</label>
+              <input id="emergency-phone" type="tel" inputmode="tel" maxlength="24" placeholder="000 000 00 00" aria-describedby="emergency-phone-hint" required>
+              <p id="emergency-phone-hint" class="emergency-demo-hint">Verwende für den Entwurf eine Beispielnummer.</p>
+            </div>
+            <fieldset class="emergency-demo-duration">
+              <legend>Wie lange soll der Kontakt gelten?</legend>
+              <label class="emergency-demo-option">
+                <input type="radio" name="dauer" value="heute" checked>
+                <span><strong>Für heute</strong><small>Löschung bei Platzschluss</small></span>
+              </label>
+              <label class="emergency-demo-option">
+                <input type="radio" name="dauer" value="saison">
+                <span><strong>Bis Saisonende</strong><small>Löschung am <span id="emergency-season-end">{{ time.Format "2. January 2006" (time $saisonende.datum) }}</span> (Beispieldatum)</small></span>
+              </label>
+            </fieldset>
+            <div class="emergency-demo-actions">
+              <button class="button" type="submit">SMS-Bestätigung testen</button>
+              <button class="emergency-demo-secondary" id="emergency-fill" type="button">Testdaten einsetzen</button>
+            </div>
+          </fieldset>
+        </form>
+
+        <form id="emergency-code-form" autocomplete="off" hidden>
+          <h2 id="emergency-code-title" tabindex="-1">Mobilnummer bestätigen</h2>
+          <p>Gib den sechsstelligen Code ein. Im Betrieb erhältst du ihn per SMS. Er gilt 15 Minuten.</p>
+          <div class="emergency-demo-field">
+            <label for="emergency-code">SMS-Code</label>
+            <input id="emergency-code" type="text" maxlength="6" pattern="[0-9]{6}" inputmode="numeric" aria-describedby="emergency-code-hint" required>
+            <p class="emergency-demo-hint" id="emergency-code-hint">Testcode <strong>246810</strong></p>
+          </div>
+          <div class="emergency-demo-actions">
+            <button class="button" type="submit">Testcode bestätigen</button>
+            <button class="emergency-demo-secondary" id="emergency-back" type="button">Angaben ändern</button>
+          </div>
+        </form>
+
+        <section id="emergency-success" hidden>
+          <h2 id="emergency-success-title" tabindex="-1">Test abgeschlossen</h2>
+          <p id="emergency-expiry"></p>
+          <p>Du kannst deinem Kind diesen Zuordnungscode mitgeben. Damit findet die Spielplatzleitung die richtige Nummer.</p>
+          <p class="emergency-demo-number"><strong>RH-4K7</strong></p>
+          <button class="emergency-demo-secondary" id="emergency-restart" type="button">Formular erneut testen</button>
+        </section>
+      </div>
+      <p class="emergency-demo-privacy">Im Betrieb kann nur die Spielplatzleitung die Nummer im Notfall per SMS abrufen. Für Änderungen oder eine frühere Löschung wende dich an den <a href="mailto:{{ site.Params.email }}">Verein Bauspielplatz Rütihütten</a>.</p>
+    </section>
+  </article>
+  {{ with .Resources.GetMatch "demo.js" }}
+    <script src="{{ .RelPermalink }}" defer></script>
+  {{ end }}
+{{ end }}

@@ -57,11 +57,13 @@
       </div>
       <div class="date-list">
         {{ $heute := now.Format "2006-01-02" }}
-        {{ range first 5 (where (where hugo.Data.kalender.eintraege "datum" "ge" $heute) "offen" true) }}
+        {{ $eintraege := partialCached "kalender-eintraege.html" . }}
+        {{ range first 5 (where (where $eintraege "datum" "ge" $heute) "offen" true) }}
           <article>
             <time datetime="{{ .datum }}">{{ partial "date-display.html" .datum }}</time>
             <strong>{{ .titel }}</strong>
             <span>{{ .beginn }}-{{ .ende }} Uhr</span>
+            {{ if (index hugo.Data.kalender (substr .datum 0 4)).vorlaeufig }}<span>Vorläufig</span>{{ end }}
           </article>
         {{ end }}
       </div>

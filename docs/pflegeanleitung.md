@@ -2,7 +2,9 @@
 
 ## Kalender pflegen
 
-Die zentrale Datei ist `data/kalender.yaml`.
+Jede Saison hat eine Datei unter `data/kalender/<jahr>.yaml`. Die Startseite und der Kalender verwenden alle Saisonpläne. Mit `vorlaeufig: true` wird ein noch unbestätigter Plan gekennzeichnet. Sobald die Termine bestätigt sind, werden Öffnungstage und Anlässe in derselben Datei nachgeführt und die Kennzeichnung wird entfernt.
+
+Das Banner zeigt ausserhalb eines Öffnungstags das nächste geplante Öffnungsdatum an. Auf der veröffentlichten statischen Website wird der Status mit dem Datum des Hugo-Builds berechnet und bei einem neuen Build aktualisiert.
 
 Wichtige Felder:
 
@@ -29,7 +31,7 @@ Beispiel Ausfall:
 
 ## Wichtige Anlässe pflegen
 
-Anlässe wie Pfuus, Böögg oder Castagnata stehen ebenfalls in `data/kalender.yaml`.
+Anlässe wie Pfuus, Böögg oder Castagnata stehen im jeweiligen Saisonplan unter `data/kalender/`.
 
 ```yaml
 - datum: "2026-11-01"

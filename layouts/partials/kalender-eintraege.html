@@ -1,0 +1,5 @@
+{{- $eintraege := slice -}}
+{{- range hugo.Data.kalender -}}
+  {{- $eintraege = $eintraege | append .eintraege -}}
+{{- end -}}
+{{- return (sort $eintraege "datum") -}}

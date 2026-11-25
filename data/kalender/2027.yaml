@@ -1,0 +1,436 @@
+jahr: 2027
+vorlaeufig: true
+quelle:
+  titel: Regulärer Betrieb nach dem Muster des Jahresprogramms 2026
+  schulferien_url: https://www.stadt-zuerich.ch/schulferien
+  hinweis: Ferienblöcke umfassen die angrenzenden Wochenenden. Die örtlichen Anlässe und Bauwochen sind Terminvorschläge nach
+    dem Muster von 2026.
+  clean_up_day_url: https://www.igsu.ch/de/clean-up-day/clean-up-day/
+standard_oeffnungszeiten:
+  beginn: '14:00'
+  ende: '17:30'
+  anzeige: 14:00-17:30 Uhr
+schulfreie_zeiten:
+- startdatum: '2027-03-25'
+  enddatum: '2027-03-29'
+  titel: Gründonnerstag / Ostern
+- startdatum: '2027-04-19'
+  enddatum: '2027-04-19'
+  titel: Sechseläuten
+- startdatum: '2027-04-24'
+  enddatum: '2027-05-09'
+  titel: Frühlingsferien
+- startdatum: '2027-05-17'
+  enddatum: '2027-05-17'
+  titel: Pfingstmontag
+- startdatum: '2027-07-17'
+  enddatum: '2027-08-22'
+  titel: Sommerferien
+- startdatum: '2027-09-13'
+  enddatum: '2027-09-13'
+  titel: Knabenschiessen
+- startdatum: '2027-10-09'
+  enddatum: '2027-10-24'
+  titel: Herbstferien
+eintraege:
+- datum: '2027-03-06'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-03-10'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-03-13'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-03-17'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-03-20'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-03-24'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-03-31'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-04-03'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-04-07'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-04-10'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-04-14'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-04-17'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-04-21'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-04-26'
+  titel: Frühlingsbauwoche
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-04-27'
+  titel: Frühlingsbauwoche
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-04-28'
+  titel: Frühlingsbauwoche
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-05-12'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-05-15'
+  titel: Böögg
+  typ: event
+  offen: false
+  faellt_aus: false
+  hinweis: Frühlingsanlass mit Böögg-Verbrennen auf dem Bauspielplatz.
+- datum: '2027-05-19'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-05-22'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-05-26'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-05-29'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-06-02'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-06-05'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-06-09'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-06-12'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-06-16'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-06-19'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-06-23'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-06-26'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-06-30'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-07-03'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-07-07'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-07-10'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-07-14'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-07-16'
+  titel: Pfuus
+  typ: event
+  offen: false
+  faellt_aus: false
+  hinweis: Eine Nacht auf dem Bauspielplatz vor den Sommerferien.
+- datum: '2027-08-25'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-08-28'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-09-01'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-09-04'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-09-08'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-09-11'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-09-15'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-09-18'
+  titel: Clean-up Day
+  typ: event
+  offen: false
+  faellt_aus: false
+  hinweis: Gemeinsam den Platz und seine Umgebung aufräumen.
+- datum: '2027-09-22'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-09-25'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-09-29'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-10-02'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-10-06'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-10-11'
+  titel: Herbstbauwoche
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-10-12'
+  titel: Herbstbauwoche
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-10-13'
+  titel: Herbstbauwoche
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-10-27'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-10-30'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-11-03'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-11-06'
+  titel: Castagnata
+  typ: event
+  offen: false
+  faellt_aus: false
+  hinweis: Marroni und Begegnung auf dem Bauspielplatz.
+- datum: '2027-11-10'
+  titel: Bauspielplatz offen
+  typ: open
+  offen: true
+  faellt_aus: false
+  beginn: '14:00'
+  ende: '17:30'
+- datum: '2027-11-13'
+  titel: Aufräumen
+  typ: event
+  offen: false
+  faellt_aus: false
+  hinweis: Gemeinsam den Platz winterbereit machen und die Saison abschliessen.

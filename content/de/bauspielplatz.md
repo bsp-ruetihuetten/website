@@ -13,6 +13,8 @@ Der Bauspielplatz Rütihütten liegt am Stadtrand von Zürich, direkt am Waldran
 
 Das Angebot ist kostenlos und ohne Voranmeldung offen. Kindergartenkinder kommen in Begleitung eines Erwachsenen, Schulkinder dürfen auch unbegleitet vorbeikommen und sich nach Herzenslust kreativ betätigen.
 
+[Testformular für den Notfallkontakt ausprobieren]({{< relref "notfallkontakt/index.md" >}})
+
 Unterstützt von der Spielplatzleitung können Kinder eigene Traumhäuser verwirklichen, kleinere Holzarbeiten durchführen, mit Specksteinen arbeiten oder zwischen den Rütihütten Verstecken spielen.
 
 Die Bausaison dauert in der Regel von März bis November. Während der Schulzeit ist der Platz am Mittwoch- und Samstagnachmittag geöffnet; in den Schulferien bleibt er grundsätzlich geschlossen oder es gibt besondere Bauwochen und Anlässe.

@@ -1,5 +1,6 @@
 {{ $heute := now.Format "2006-01-02" }}
-{{ $heuteEintraege := where hugo.Data.kalender.eintraege "datum" $heute }}
+{{ $eintraege := partialCached "kalender-eintraege.html" . }}
+{{ $heuteEintraege := where $eintraege "datum" $heute }}
 {{ $hatBanner := false }}
 
 {{ range where hugo.Data.aktuelle_hinweise.hinweise "aktiv" true }}
@@ -25,18 +26,25 @@
         <p class="eyebrow">Heute</p>
         <h2>Bauspielplatz heute offen</h2>
         <p>{{ .beginn }}-{{ .ende }} Uhr</p>
+        {{ if (index hugo.Data.kalender (substr .datum 0 4)).vorlaeufig }}
+          <p>Vorläufiger Saisonplan</p>
+        {{ end }}
       </section>
     {{ end }}
   {{ end }}
 {{ end }}
 
 {{ if not $hatBanner }}
-  {{ $naechste := first 1 (where (where hugo.Data.kalender.eintraege "datum" "ge" $heute) "offen" true) }}
-  {{ with index $naechste 0 }}
+  {{ $kuenftige := where $eintraege "datum" "gt" $heute }}
+  {{ $oeffnungen := where (where $kuenftige "offen" true) "faellt_aus" false }}
+  {{ range first 1 $oeffnungen }}
     <section class="status-banner status-next" aria-label="Nächste Öffnung">
       <p class="eyebrow">Nächste Öffnung</p>
-      <h2>{{ partial "date-display.html" .datum }}</h2>
+      <h2>Öffnet wieder am {{ time.Format "Monday, 2. January 2006" (time .datum) }}</h2>
       <p>{{ .beginn }}-{{ .ende }} Uhr</p>
+      {{ if (index hugo.Data.kalender (substr .datum 0 4)).vorlaeufig }}
+        <p>Vorläufiger Saisonplan</p>
+      {{ end }}
     </section>
   {{ end }}
 {{ end }}
